@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anchal Beauty Shop</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:#faf7f8;color:#222}
+.hero{
+background:linear-gradient(90deg,#0f6b3e,#b79a72,#e98aa2);
+padding:30px 20px 0;
+text-align:center;color:white;
+}
+.topline{letter-spacing:3px;font-size:14px;margin-bottom:15px}
+.hero h1{font-size:72px;font-weight:800}
+.hero h2{font-size:26px;margin:15px 0}
+.hero p{font-size:18px;padding-bottom:25px}
+.nav{
+background:#111;color:white;display:flex;justify-content:center;gap:50px;
+padding:18px;position:sticky;top:0;z-index:999
+}
+.nav a{color:white;text-decoration:none;font-weight:600}
+.features{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;padding:30px;max-width:1400px;margin:auto
+}
+.feature{background:white;padding:20px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.section-title{text-align:center;font-size:42px;margin:20px;color:#e83f76}
+.products{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;padding:30px;max-width:1400px;margin:auto
+}
+.card{background:white;border-radius:16px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,.08);transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:220px;object-fit:cover}
+.card h3,.card p{text-align:center;padding:10px}
+.btn{display:block;margin:12px;background:#e83f76;color:white;text-decoration:none;padding:12px;border-radius:10px;text-align:center}
+.offer{
+max-width:1400px;margin:20px auto;background:#fff0f5;border:1px solid #f3c4d2;
+padding:25px;border-radius:15px;text-align:center;font-size:22px
+}
+.contact{max-width:900px;margin:40px auto;padding:30px;background:white;border-radius:15px}
+input,textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:8px}
+footer{background:#111;color:white;text-align:center;padding:20px;margin-top:30px}
+</style>
+</head>
+<body>
+
+<div class="hero" id="home">
+<div class="topline">VARANASI'S TRUSTED BEAUTY & COSMETIC STORE</div>
+<h1>Anchal Beauty Shop</h1>
+<h2>Best Beauty & Cosmetic Products in Varanasi</h2>
+<p>📍 Amaut Jengar, Varanasi</p>
+</div>
+
+<div class="nav">
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#offers">Offers</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div class="features">
+<div class="feature"><h3>Quality Products</h3><p>100% Genuine Beauty Products</p></div>
+<div class="feature"><h3>Best Prices</h3><p>Affordable Cosmetic Range</p></div>
+<div class="feature"><h3>Fast Delivery</h3><p>Quick WhatsApp Orders</p></div>
+<div class="feature"><h3>Trusted Store</h3><p>Customer Satisfaction First</p></div>
+</div>
+
+<h2 class="section-title" id="products">Best Selling Products</h2>
+
+<div class="products">
+<div class="card"><img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=80"><h3>Matte Lipstick</h3><p>₹199</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Matte Lipstick">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=80"><h3>Liquid Foundation</h3><p>₹299</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Liquid Foundation">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=700&q=80"><h3>Face Wash</h3><p>₹199</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Face Wash">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80"><h3>Moisturizer</h3><p>₹249</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Moisturizer">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1619451334792-150fd785ee74?auto=format&fit=crop&w=700&q=80"><h3>Sunscreen</h3><p>₹349</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Sunscreen">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?auto=format&fit=crop&w=700&q=80"><h3>Kajal</h3><p>₹99</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Kajal">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1631730486782-d8b8b6fddb40?auto=format&fit=crop&w=700&q=80"><h3>Mascara</h3><p>₹249</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Mascara">Order on WhatsApp</a></div><div class="card"><img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80"><h3>Perfume</h3><p>₹499</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Perfume">Order on WhatsApp</a></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"><h3>Compact Powder</h3><p>₹199</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Compact Powder">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80"><h3>BB Cream</h3><p>₹249</p><a class="btn" href="https://wa.me/919005801060?text=I want to order BB Cream">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80"><h3>Primer</h3><p>₹299</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Primer">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1583001931096-959e9a1a6223?auto=format&fit=crop&w=700&q=80"><h3>Eyeliner</h3><p>₹149</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Eyeliner">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80"><h3>Eyeshadow Palette</h3><p>₹499</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Eyeshadow Palette">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?auto=format&fit=crop&w=700&q=80"><h3>Vitamin C Serum</h3><p>₹399</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Vitamin C Serum">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=80"><h3>Aloe Vera Gel</h3><p>₹149</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Aloe Vera Gel">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=700&q=80"><h3>Night Cream</h3><p>₹349</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Night Cream">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=700&q=80"><h3>Hair Serum</h3><p>₹299</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Hair Serum">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=700&q=80"><h3>Shampoo</h3><p>₹249</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Shampoo">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"><h3>Body Lotion</h3><p>₹249</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Body Lotion">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=700&q=80"><h3>Nail Polish</h3><p>₹99</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Nail Polish">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=700&q=80"><h3>Makeup Brush Set</h3><p>₹599</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Makeup Brush Set">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=80"><h3>Beauty Blender</h3><p>₹149</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Beauty Blender">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80"><h3>Bridal Makeup Kit</h3><p>₹1999</p><a class="btn" href="https://wa.me/919005801060?text=I want to order Bridal Makeup Kit">Order on WhatsApp</a></div>
+
+</div>
+
+<div class="offer" id="offers">
+🎁 Special Offer! Get up to <b>20% OFF</b> on selected beauty products.
+</div>
+
+<div class="contact" id="contact">
+<h2>Contact Us</h2>
+<input placeholder="Your Name">
+<input placeholder="Mobile Number">
+<textarea placeholder="Your Message"></textarea>
+<p><b>Phone:</b> 9005801060</p>
+<p><b>Address:</b> Amaut Jengar, Varanasi</p>
+</div>
+
+<footer>© 2026 Anchal Beauty Shop</footer>
+</body>
+</html>
